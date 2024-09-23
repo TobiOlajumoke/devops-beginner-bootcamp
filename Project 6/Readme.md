@@ -103,7 +103,6 @@ Option 2: Click on the Terminal option in the top menu and select New Terminal.
 mkdir -p flask_api_project/{templates,static} && touch flask_api_project/app.py flask_api_project/templates/index.html flask_api_project/static/style.css && python -m venv flask_api_project/venv
 ```
 
-```
 
 
 ![alt text](<images/directory structure.png>)
