@@ -88,8 +88,8 @@ To create the project directory structure and set up a virtual environment, run 
 
 ### To open up your terminal in VScode
 
-- Use the shortcut `Ctrl + `` (backtick key). - Windows users
-- Use the shortcut `Cmd + `` (backtick key). - Mac user
+- Use the shortcut "Ctrl + ` " (backtick key). - Windows users
+- Use the shortcut "Cmd + ` " (backtick key). - Mac user
 
 Option 2: Click on the Terminal option in the top menu and select New Terminal.
 
