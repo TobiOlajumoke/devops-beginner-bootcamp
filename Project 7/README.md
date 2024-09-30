@@ -1,4 +1,6 @@
-# What is a VPC?
+# AWS VPC Project
+
+## What is a VPC?
 
 A VPC (Virtual Private Cloud) in AWS (Amazon Web Services) is a service that allows you to launch AWS resources in a logically isolated virtual network that you define. Here are the key components and features of an AWS VPC:
 
@@ -263,7 +265,7 @@ We need to create a NAT gateway and attach it to all our route tables created ea
 ![alt text](<images/add NGW to route2.png>)
 - for Destination select 0.0.0.0/0
 ![alt text](<images/add NGW to route3.png>)
-- for the Target selct NAT gateway
+- for the Target select NAT gateway
 ![alt text](<images/add NGW to route4.png>)
 - select the NAT gateway created earlier and save changes
 ![alt text](<images/add NGW to route5.png>)
