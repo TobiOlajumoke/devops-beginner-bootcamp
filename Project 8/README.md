@@ -418,11 +418,14 @@ You should see 15 subnets , 6 route tables, internet gateway and NAT gateway as 
 ![alt text](<images/vpc resource map.png>)
 
 # Step 5: Cleanup the Resources
-clean up the resources created by Terraform, execute the following command
+
+- clean up the resources created by Terraform, execute the following command
 ```
 terraform destroy  -var-file=../../vars/dev/vpc.tfvars
 ```
 ![alt text](<images/terraform destroy.png>)
+
+- You can go ahead and terminate your instance you created also
 
 # That's the end for this project. Welldone
 
