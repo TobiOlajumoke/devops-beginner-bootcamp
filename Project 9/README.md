@@ -60,7 +60,7 @@ Docker uses a **client-server** architecture:
 
 ## Step 1 Provision an instance
 
-- Spin up and Ubuntu 24.04 t2.micro 
+- Spin up an Ubuntu 24.04 t2.micro this is where we'll be doing the project in
 
 - SSH into the instance 
 
@@ -134,19 +134,19 @@ sudo docker images
 docker run -d -p 8000:8000 flask-application:1.0.0
    ```
 
-Check if the container is running if it is PROCEED to step 3
+Check if the container is running if it is PROCEED to 3
 
 ```bash
 sudo docker ps
 ```
-![alt text](<images/docker run and ps.png>)
-# if the container isn't running check the list of all conatiners
+![alt text](<images/docker run and ps.png>) 
+# if the container isn't running check the list of all containers
 
 ```bash
 sudo docker ps -a
 ```
 
-to troubleshoot or findout why the cdontainer "exited" and isn't running you'll check the container logs by running this command 
+To troubleshoot or find out why the container "exited" and isn't running you'll check the container logs by running this command 
 
 ```bash
 sudo docker logs <container_id_or_name>
@@ -163,7 +163,7 @@ http://<your-ec2-public-ip>:8000
 
 4. The webpage will not work, WHY?
 
- we have not added the port 8000 to our security group of our instance so do thatand try accessing  the EC2 public IP
+ we have not added the port 8000 to our security group of our instance so do that and try accessing  the EC2 public IP
 
 ![alt text](<images/adD port 800 to SG.png>)
 
